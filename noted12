@@ -1,0 +1,38 @@
+authenthication : who are you "verification necessary"
+autherization: what you can do "access based control system"
+
+ Authentication (AuthN): Validating user identity through credentials (e.g., login details).
+Authorization (AuthZ): Determining user privileges and access to resources.
+
+nextauth is library for authenthication 
+
+name : auth.js
+used after installation ::: npm install next-auth@beta
+
+chatgpt pr login or singup ki functaionality isy hi use kr ky ki hia 
+
+turbopack:  jp bh code hai usko vercel behind the scene wo usko binary language mn convert krta hia phly y ekam webpack 
+pr kia jata tha turbo jo hia wo webpack ka advance version hia 
+
+
+.env.local :: file  for api integration (its  an enviromental variable ) mn hum apni api ko rkhen gy(SENSITIVE DATA HN RKHTY HEN)
+
+to open writ ethis on chorome own github api : gitHub.com/settings/developers
+to open new OAth app
+
+ye krny ky bad client id or secret client  dalny ky bad 
+AUTH-secret kO banany ky liye 
+terminal mn npm exec  auth secret
+
+now create folder lib and file  auth.ts
+
+
+usky bad code hia 
+
+dynamics route: api ka folder usky under auth or uksy under aik or folder [...nextauth]/route.ts
+1000 user ki alag alag 
+
+[]: this represents here dynamics route 
+
+
+sessions: means 

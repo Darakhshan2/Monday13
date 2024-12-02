@@ -1,0 +1,4 @@
+install shadecn  : npx shadcn@latest init
+add button input card : npx shadcn add card input button
+
+create custom login and sign up page
